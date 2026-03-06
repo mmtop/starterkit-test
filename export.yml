@@ -7,7 +7,7 @@ project:
     #   id: report_tex
     
     - format: typst
-      template: https://github.com/FreekPols/myst_typst_V1.git #https://github.com/TUD-JB-OS/typst_template.git
+      template: https://github.com/mmtop/myst_typst_V1/tree/style/V1.git #https://github.com/TUD-JB-OS/typst_template.git
       output: exports/report_typst.pdf
       id: report_typst
       cover_page_variant: graphical
