@@ -11,7 +11,7 @@ project:
       output: exports/report_typst.pdf
       id: report_typst
       cover_page_variant: graphical
-      cover_background_image: figures/cover.png
+      cover_background_image: content/figures/cover.png
       title_page_variant: "formal"
 
   # downloads:
