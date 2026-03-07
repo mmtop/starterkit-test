@@ -70,8 +70,10 @@ jobs:
         run: |
           echo "# PDF Build Error Log" > errorlog.md
           echo "" >> errorlog.md
+          echo "**Build time:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> errorlog.md
+          echo "" >> errorlog.md
           echo '```text' >> errorlog.md
-          cat build.log >> errorlog.md
+          grep -iE "error|warning" build.log >> errorlog.md || echo "No errors or warnings." >> errorlog.md
           echo '```' >> errorlog.md
           
 
