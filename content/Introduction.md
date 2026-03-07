@@ -12,7 +12,7 @@ Jupyter Book has been rebuild from ground up using the MyST engine [@doi:10.2508
 ## Background
 Some background information about Jupyter Book and its features, like exporting to multiple formats as indicated in {numref}`fig-diagram`.
 
-```{figure} ../figures/diagram.*
+```{figure} figures/diagram.*
 :label: fig-diagram
 :alt: Some figure
 
@@ -21,7 +21,7 @@ Some figure
 
 
 +++{"no-pdf":true}
-```{figure} ../figures/delft.*
+```{figure} figures/delft.*
 :label: fig-delft
 :alt: picture of the TUD
 

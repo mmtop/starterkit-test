@@ -48,6 +48,6 @@ You can also find the link easily from you GitHub repository home page under the
 
 You also have automatically two pdf's based on a LaTeX thesis and Typst thesis template. Two buttons can be found at the top right corner to inspect these pdf's.
 
-```{figure} ../figures/folderstructure.png
+```{figure} figures/folderstructure.png
 :label: fig_folderstructure
 ```

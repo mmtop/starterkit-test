@@ -1,27 +1,57 @@
-# Title page
+---
+title: The TUD starterkit for open publishing with JupyterBook
+site:
+  hide_outline: true
+  hide_toc: true
+  hide_title_block: true
+  hide_authors: false
+      
+numbering:
+  title:
+    enabled: false
 
-::::{grid} 2
-:::{card} Quick start
-:link: ./Quickstart.md
+no-update-date: true
+---
 
-Some text
-:::
++++ { "kind": "split-image" }
 
-:::{card} Example
-:link: https://luukfroling.github.io/BEP/
+## The TUD starterkit for open publishing with JupyterBook
 
-some more
-:::
+a quick setup for your open publishing project
 
-:::{card} Cheatsheet
-:link: ./Cheatsheet.md
+{button}`Check our latest book publication <https://tudelft.nl>`  
 
-Go to the cheatsheet
-:::
+Author.  
+Supervisor. 
 
-:::{card} Manual
-:link: https://tud-jb-os.github.io/book/
+![](figures/cover.png)
 
-Link to the manual
-:::
-::::
++++
+
+This thesis reports on the use of Jupyter Book for open publishing at TU Delft - especially bachelor and master thesis. It provides a quick setup for your open publishing project, including a template and guidelines for using Jupyter Book effectively. The starterkit is designed to help you create and share your research in an open and accessible way.
+
++++ {"kind": "justified"}
+## Quick navigation
+````{grid} 2
+```{card}
+:header: 📖 TUD publishing manual
+
+Go to the manual of this starterkit
+```
+```{card}
+:header: 📈 Results
+
+jump to the results
+```
+```{card}
+:header: 📯 Conclusion
+
+jump to conclusions
+```
+```{card}
+:header: 📙 Jupyter book
+:url: https://jupyterbook.org/
+
+Learn more about Jupyter book
+```
+````
