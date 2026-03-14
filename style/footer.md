@@ -1,3 +1,6 @@
+---
+no-update-date: true
+---
 % This defines the footer of the site, and is not parsed as a regular "page"
 % We point to it with the following in `myst.yml`:
 % site:
@@ -18,7 +21,7 @@
 
 ```{image} https://jupyterbook.org/en/stable/_images/logo-square.svg
 :width: 50px
-:align: center
+:align: left
 :url: https://jupyterbook.org/
 ```
 
