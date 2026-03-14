@@ -18,7 +18,7 @@
 
 ```{image} https://jupyterbook.org/en/stable/_images/logo-square.svg
 :width: 50px
-:align: left
+:align: center
 :url: https://jupyterbook.org/
 ```
 
@@ -43,13 +43,13 @@ Want your own project? Visit our [starterkit](https://github.com/TUD-JB-OS/start
 - [About](https://mystmd.org/overview/ecosystem)
 - [Guide](https://mystmd.org/guide)
 - [Sandbox](https://mystmd.org/sandbox)
-  :::
+- [TU Delft](https://tudelft.nl)
+:::
 
 :::{div}
 
-- A second column!
-- With multiple entries
-  :::
+<!-- empty div -->
+:::
 
 :::{div}
 

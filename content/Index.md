@@ -17,12 +17,12 @@ no-update-date: true
 
 ## The TUD starterkit for open publishing with JupyterBook
 
-a quick setup for your open publishing project
+a quick setup for your open publishing project.
 
 {button}`Use this template <https://github.com/new?template_name=starterkit&template_owner=TUD-JB-OS>`  
 
-Author.  
-Supervisor. 
+Originally created by  
+*Freek Pols*
 
 ![](figures/cover.png)
 
