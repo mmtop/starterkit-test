@@ -19,7 +19,7 @@ no-update-date: true
 
 a quick setup for your open publishing project
 
-{button}`Check our latest book publication <https://tudelft.nl>`  
+{button}`Use this template <https://github.com/new?template_name=starterkit&template_owner=TUD-JB-OS>`  
 
 Author.  
 Supervisor. 
