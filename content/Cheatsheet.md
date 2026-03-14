@@ -1,4 +1,3 @@
-+++{"no-pdf":true}
 # Cheatsheet
 
 Below is a cheat sheet which is pulled from the [JB workshop](https://jupyter-book.github.io/workshop-template/).
@@ -6,4 +5,3 @@ Below is a cheat sheet which is pulled from the [JB workshop](https://jupyter-bo
 ```{embed} xref:JB-workshop#cheat-sheet
 
 ```
-+++

@@ -7,13 +7,18 @@ project:
   github: https://github.com/TUD-JB-OS/starterkit
   date: 2026-01-31
   
-    # used to load /reuse materials from other repositories
+  # specify authors in authors.yml file
+
+  # used to load /reuse materials from other repositories
   references:
     myst-guide: https://mystmd.org/guide
     JB-workshop: https://jupyter-book.github.io/workshop-template/
     
+  # the following chapters are excluded from building the pdf version
   exclude: 
-    - datalog.md
+    - datalog.md 
+    - README.md
+    - Cheatsheet.md
     
   bibliography:
     - references.bib
@@ -23,10 +28,10 @@ project:
       repo: https://github.com/executablebooks/thebe-binder-base
   
 extends:
-  - toc.yml     # includes table of contents
-  - export.yml  # includes export configurations
-  - plugins.yml
-  - authors.yml
+  - toc.yml       # includes table of contents
+  - export.yml    # includes export configurations
+  - plugins.yml   # includes plugin configurations
+  - authors.yml   # includes author and contributor information
   
 site:
   template: book-theme
@@ -41,3 +46,5 @@ site:
       url: ./exports/report_tex.pdf
     - title: Typst PDF
       url: ./exports/report_typst.pdf
+  parts:
+    footer: style/footer.md

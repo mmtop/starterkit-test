@@ -9,6 +9,17 @@ abstract: |
 
 Jupyter Book has been rebuild from ground up using the MyST engine [@doi:10.25080/hwcj9957]. This allows to export content in multiple output formats including HTML, PDF and docx. In this paper we present an overview of the possibilities and demonstrate its working.
 
+In an introduction. you often cite. Than can be done in various ways, either using a .bib file or directly using the doi.
+
+**cite with doi**
+- `[@doi:10.25080/hwcj9957]` resulting in [@doi:10.25080/hwcj9957]
+- `@doi:10.25080/hwcj9957` resulting in @doi:10.25080/hwcj9957
+
+**cite from bib-file**
+- `{cite:t}`bolyen2025jupyter`` resulting in {cite:t}`bolyen2025jupyter`
+- `{cite:p}`bolyen2025jupyter`` resulting in {cite:p}`bolyen2025jupyter`
+
+
 ## Background
 Some background information about Jupyter Book and its features, like exporting to multiple formats as indicated in {numref}`fig-diagram`.
 

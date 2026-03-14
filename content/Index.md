@@ -42,18 +42,18 @@ Go to the manual of this starterkit
 :header: ❔ Questions?
 :url: mailto:c.f.j.pols@tudelft.nl
 
-Send us an email at
+Send us an email.
 ```
 ```{card}
 :header: ❌ Error report
 :url: https://github.com/TUD-JB-OS/starterkit/issues
 
-Report an error
+Report an error.
 ```
 ```{card}
 :header: 📙 Jupyter book
 :url: https://jupyterbook.org/
 
-Learn more about Jupyter book
+Learn more about Jupyter book.
 ```
 ````

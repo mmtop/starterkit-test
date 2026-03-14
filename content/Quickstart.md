@@ -35,6 +35,18 @@ Follow these steps to create your own GH Pages site from the template.
 ```
 +++
 
+## First step
+You may want to start with opening the `authors.yml` file and specify your name, your institution and details of your supervisor. 
+
+Next, open the `myst.yml` file, change the title, the keywords, the date and the github url which is set to the original starterkit repo by default.
+
+If you are from another university, you want to change the icons and logo's in the `style` folder, and redirect to these in the `myst.yml` file in the `site - options` section.
+
+```{important} specify correct github repo
+In using the template repo, some information that belongs to the original repo are copied as well. It is important to open the `myst.yml` file and set the github url to your own. 
+```
+
+
 ## View your thesis online
 
 The previous steps set up your repository with GitHub Pages using a GitHub Actions workflow. That action automatically builds your book (a website) and deploys it online. The URL of your book is based on your GitHub username:

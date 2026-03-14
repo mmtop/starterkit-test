@@ -10,3 +10,4 @@ project:
       children:
         - file: content/Cheatsheet.md
         - file: errorlog.md
+        - file: README.md
