@@ -31,6 +31,7 @@ Want your own project? Visit our [starterkit](https://github.com/TUD-JB-OS/start
 
 :::{div}
 - [Manual](https://tud-jb-os.github.io/book/)
+- [Help](mailto:c.f.j.pols@tudelft.nl)
 - [Jupyter](https://jupyterbook.org/)
 - [TU Delft](https://tudelft.nl)
 :::
