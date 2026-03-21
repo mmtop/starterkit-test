@@ -12,13 +12,11 @@ no-update-date: true
 ```{image} https://jupyterbook.org/en/stable/_images/logo-square.svg
 :width: 50px
 :align: left
-:url: https://jupyterbook.org/
 ```
 
 Want your own project? Visit our [starterkit](https://github.com/TUD-JB-OS/starterkit)
 ::::
 
-<!-- Spacer between project description and links columns -->
 
 ::::{div}
 ::::
