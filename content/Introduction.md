@@ -21,15 +21,16 @@ In an introduction. you often cite. Than can be done in various ways, either usi
 
 
 ## Background
-Some background information about Jupyter Book and its features, like exporting to multiple formats as indicated in {numref}`fig-diagram`.
+Jupyter Book has been rebuild with the intend to export content in multiple output formats including HTML, PDF and docx. {numref}`Figure {number} <fig-diagram>` provides this idea.
 
 ```{figure} figures/diagram.*
 :label: fig-diagram
 :alt: Some figure
 
-Some figure
+The myst engine allows Jupyter Notebook, markdown and even tex files to be converted to multiple output formats.
 ```
 
+As exporting to different formats is possible, it is not always desired. Some content should only be visible in the HTML version, and some content only need to be included in the PDF version. You can use blocks like `+++{"no-pdf":true}` to enable this, as shown below where the figure is seen in the HTML version but not in the PDF version.
 
 +++{"no-pdf":true}
 ```{figure} figures/delft.*

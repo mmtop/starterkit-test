@@ -40,7 +40,8 @@ const DEFAULTS = {
   "\\\\mathbb\\{N\\}": "ℕ",
   "\\\\mathbb\\{Z\\}": "ℤ",
   "\\\\mathbb\\{Q\\}": "ℚ",
-  "\\\\mathbb\\{C\\}": "ℂ"
+  "\\\\mathbb\\{C\\}": "ℂ",
+  "\\\\hbar": "planck.reduce"
 };
 
 // replacing \hspace
