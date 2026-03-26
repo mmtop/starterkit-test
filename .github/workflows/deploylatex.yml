@@ -23,9 +23,9 @@ jobs:
             texlive-latex-recommended \
             texlive-fonts-recommended \
             texlive-xetex \
-            latexmk \            
-            texlive-latex-extra \            
-            fonts-lmodern
+            latexmk \
+            texlive-latex-extra \
+            fonts-lmodern \
             nodejs \
             npm
           python -m pip install --upgrade pip
