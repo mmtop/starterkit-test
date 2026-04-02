@@ -1,5 +1,5 @@
 ---
-title: The TUD starterkit for open publishing with JupyterBook
+title: Implementation of more accurate multislice algorithms for low energy TEM
 site:
   hide_outline: true
   hide_toc: true
@@ -10,23 +10,26 @@ numbering:
   title:
     enabled: false
 
-no-update-date: true
+# no-update-date: true
 ---
 
 +++ { "kind": "split-image" }
 
-## The TUD starterkit for open publishing with JupyterBook
+## Implementation of more accurate multislice algorithms for low energy TEM
 
-a quick setup for your open publishing project.
+Integrating propagator-corrected and fully-corrected methods into open-source
+simulation software
 
-{button}`Use this template <https://github.com/new?template_name=starterkit&template_owner=TUD-JB-OS>`  
-
-Originally created by  
-*Freek Pols*
+Author: Mathijs van den Doel  
+Supervisor: Dr. Georgios Varnavides 
 
 ![](figures/cover.png)
 
+
 +++
 
-This thesis reports on the use of Jupyter Book for open publishing at TU Delft - especially bachelor and master thesis. It provides a quick setup for your open publishing project, including a template and guidelines for using Jupyter Book effectively. The starterkit is designed to help you create and share your research in an open and accessible way.
-
+This thesis implements two improved multislice algorithms into the open-source Python library abTEM. 
+This website will take you through a basic understanding of Transmission Electron Microscopy (TEM) and the multislice method which is the most popular method for simulation TEM.
+After which the two new methods are explained and the results are presented. 
+Finally, all three methods are compared for various accelerating voltages using different techniques.
+This website also contains Jupyter notebooks to test out the new methods for yourself.

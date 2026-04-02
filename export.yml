@@ -1,38 +1,78 @@
 version: 1
 project:
   exports:
-
-    - format: typst
-      template: https://github.com/TUD-JB-OS/typst_template.git 
+    - id: report_typst
+      format: typst
+      template: ../myst_typst_V1
       output: exports/report_typst.pdf
-      id: report_typst
 
-      cover_page_variant: graphical
-      cover_background_image: content/figures/cover.png
-      title_page_variant: "formal"
-      title_page_image_anchor: bottom
-      title_page_image_width_cm: 3
-      title_page_image_dx_cm: 0
-      title_page_image_dy_cm: -3.0
+      ## Minimal active settings
+      ## Keep this section small. The template provides sane built-in defaults.
       show_cover_full: true
       show_title_page: true
-      show_title_page_image: false
+      show_title_page_image: true
       show_contributor_affiliations: true
       show_toc: true
-      show_list_of_figures: false
-      show_list_of_tables: false
-      frontmatter_numbering: roman
-      mainmatter_numbering: arabic
 
-  options:      
+      ## Demonstration choices
+      ## These are intentionally active so starterkit-test shows the richer template paths.
+      cover_page_variant: graphical
+      title_page_variant: "formal"
+
+      ## Layout toggles
+      ## Uncomment only if you want to override the template defaults.
+      # show_list_of_figures: false
+      # show_list_of_tables: false
+
+      ## Numbering and navigation
+      ## Defaults are currently: frontmatter roman, mainmatter arabic, toc depth 2.
+      # frontmatter_numbering: roman
+      # mainmatter_numbering: arabic
+      # toc_depth: 2
+
+      ## Page layout
+      ## Defaults are tuned for thesis-style A4 output.
+      # paper_size: a4
+      # margin_top_cm: 2.5
+      # margin_bottom_cm: 2.5
+      # margin_left_cm: 3.0
+      # margin_right_cm: 2.0
+
+      ## Typography
+      ## Defaults are tuned in the template; override only for a deliberate style change.
+      # font_body: Libertinus Serif
+      # font_mono: DejaVu Sans Mono
+      # font_size_pt: 11
+      # line_spacing_em: .55
+
+      ## Cover page
+      ## If no image is provided, the template falls back to its bundled default cover.
+      # cover_page_variant: simple
+      # cover_page_variant: custom
+      # cover_background_image: content/figures/cover.png
+      # cover_title_box_opacity_pct: 55
+
+      ## Title page
+      ## If no title_page_image is provided and show_title_page_image is true,
+      ## the template falls back to its bundled default image.
+      # title_page_variant: simple
+      # title_page_variant: custom
+      # title_page_image: content/figures/cover.png
+      # title_page_image_anchor: bottom
+      # title_page_image_width_cm: 3
+      # title_page_image_height_cm: 3
+      # title_page_image_dx_cm: 0
+      # title_page_image_dy_cm: -3.0
+
+      ## Brand assets
+      ## If logo is omitted or unresolved, the template falls back to its bundled logo.
+      # logo: config/template_assets/brand_assets/logo.svg
+
+  ## Shared thesis metadata
+  ## These are semantic project values used by the template, not page-layout overrides.
+  options:
     thesis_degree: Master of Science
     thesis_program: Applied Physics
     thesis_faculty: Faculty of Applied Sciences
     thesis_institution: Delft University of Technology
     thesis_defense_date: Friday June 19, 2026 at 10:00
-
-  # downloads:
-  #   - id: report_tex
-  #     title: PDF (LaTeX)
-  #   - id: report_typst
-  #     title: PDF (Typst)

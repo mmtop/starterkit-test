@@ -1,23 +1,23 @@
 version: 1
 project:
-  
+  exports:
   authors:
     - id: student
-      name: student without a name yet
+      name: Mathijs van den doel
       affiliations:
         - tud
 
   contributors:
     - id: supervisor-1
-      name: prof. dr. John Doe
+      name: Dr. Georgios Varnavides
       affiliations:
         - tud
     - id: committee-1
-      name: Prof. Dr. C. Examiner
+      name: Prof. Dr. Jacob Hoogenboom
       affiliations:
         - tud
     - id: committee-2
-      name: Dr. D. Examiner
+      name: Dr. Ali Gheidari
       affiliations:
         - tud
 
