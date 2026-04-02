@@ -40,8 +40,9 @@ project:
 
       ## Typography
       ## Defaults are tuned in the template; override only for a deliberate style change.
-      # font_body: Libertinus Serif
+      font_body: Roboto Slab
       # font_mono: DejaVu Sans Mono
+      # font_math: New Computer Modern Math
       # font_size_pt: 11
       # line_spacing_em: .55
 
