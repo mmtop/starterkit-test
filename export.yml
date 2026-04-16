@@ -3,7 +3,7 @@ project:
   exports:
     - id: report_typst
       format: typst
-      template: https://github.com/TUD-JB-OS/typst_template.git
+      template: https://github.com/mmtop/myst_typst_V1/archive/refs/heads/candidate-v0.2.0.zip
       output: exports/report_typst.pdf
 
 # Template options for Typst export
@@ -160,4 +160,3 @@ project:
     thesis_faculty: Faculty of Applied Sciences
     thesis_institution: Delft University of Technology
     thesis_defense_date: Friday June 19, 2026 at 10:00
-
