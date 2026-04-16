@@ -1,1 +1,162 @@
-template: https://github.com/mmtop/myst_typst_V1.git
+version: 1
+project:
+  exports:
+    - id: report_typst
+      format: typst
+      template: https://github.com/mmtop/myst_typst_V1/archive/refs/heads/candidate-v0.2.0.zip
+      output: exports/report_typst.pdf
+
+# Template options for Typst export
+      show_cover_full: true
+      show_title_page: true
+      show_contributor_affiliations: true
+
+## Table of contents and lists of figures/tables options
+      show_toc: true
+      toc_depth: 2
+      show_list_of_figures: false
+      show_list_of_tables: false
+
+## Bibliography options
+      show_bibliography: true
+      bibliography_title: Bibliography
+      # Common built-in Typst styles include:
+      # ieee | apa | mla | chicago-author-date | chicago-notes
+      bibliography_style: ieee
+      bibliography_numbered_heading: false
+
+## Page layout and styling
+      # Default paper size from the template: a4
+      # Common alternatives: us-letter, b5
+      paper_size: a4
+      # Margin defaults come from the template itself, but can be overridden here:
+      margin_top_cm: 2.5
+      margin_bottom_cm: 2.5
+      margin_left_cm: 2.5
+      margin_right_cm: 2.5
+
+## Font options
+      # Font defaults come from the template itself:
+      font_size_pt: 11
+      line_spacing_em: .6
+
+      # The template defaults stay on Typst's built-in families so exports work
+      # even before you enable bundled fonts.
+      #
+      # Defaults:
+      # font_body: Libertinus Serif
+      # font_math: New Computer Modern Math
+      # font_mono: DejaVu Sans Mono
+      #
+      # This starterkit build also exposes:
+      # - static font files staged from `fonts/` in this project
+      # - `../typst_template/src/assets/fonts` from the sibling template checkout
+      #
+      # Variable fonts may still warn in current Typst versions, so static cuts
+      # remain the safest choice when available.
+      #
+      # Suggested serif preset:
+      # font_body: STIX Two Text
+      # font_math: STIX Two Math
+      # font_mono: JetBrains Mono
+      #
+      # Suggested accessible sans preset:
+      # font_body: Atkinson Hyperlegible Next
+      # font_math: New Computer Modern Math
+      # font_mono: JetBrains Mono
+      #
+      # If you only want a code-font upgrade, keep body and math as-is and set:
+      # font_mono: JetBrains Mono
+
+# Cover page options:
+      # Cover variant: simple | graphical | custom
+      cover_page_variant: graphical
+
+      # Show or hide the document subtitle on the cover page:
+      # show_cover_subtitle: false
+
+      ## Graphical cover options:
+      # Recommended: replace the default template cover image with your own.
+      # If omitted, the template's built-in cover image is used.
+      cover_background_image: content/figures/cover.png
+
+      # Graphical-cover alignment: left | center
+      cover_graphical_alignment: left
+
+      # Graphical-cover contrast preset: white-on-dark | black-on-light
+      cover_graphical_appearance: white-on-dark
+
+      # cover_title_box_opacity_pct: 55
+
+      # Optional per-element overrides for the graphical cover:
+      # cover_title_text_color: white
+      # cover_title_text_color: "#f5f5f5"
+      cover_title_weight: bold
+      cover_subtitle_weight: regular
+      cover_author_weight: regular
+      # cover_bottom_text_color: white
+      # cover_title_box_color: black
+      # cover_title_box_color: "#101820"
+      cover_title_box_opacity_pct: 80
+
+      # cover_logo_variant: black
+      cover_logo_variant: white
+      # Optional custom white/black cover-logo files:
+      # cover_logo_white: content/assets/logo_white.svg
+      # cover_logo_black: content/assets/logo_black.svg
+      # Optional logo and bottom-text nudges in cm, useful when a logo file has padding:
+      cover_logo_dx_cm: -1.2
+      cover_logo_dy_cm: 0.6
+      # cover_bottom_text_dx_cm: 0
+      # cover_bottom_text_dy_cm: 0
+
+      # Optional extra multi-line text in the title box, below the author:
+      cover_title_box_text: |
+        Optional extra multi-line text
+        in the title box
+
+      # Optional ISBN field placement: titlebox | logo
+      # The ISBN value itself comes from `project.options.isbn` below.
+      cover_isbn_position: logo
+
+      # Optional small text below the cover logo:
+      cover_logo_text: |
+        Optional small text below the cover logo,
+        e.g. for an imprint line.
+
+# Title page options:
+      # Title-page variant: basic | formal | custom
+      title_page_variant: formal
+
+      ## Basic/simple variant options:
+      # Alignment of the basic/simple title and subtitle block: left | center
+      # title_page_basic_title_alignment: left
+      # Alignment of the metadata table in the basic/simple title page: left | center
+      # title_page_basic_table_alignment: left
+      # Alignment of the basic/simple title-page bottom block: left | center
+      # title_page_basic_bottom_block_alignment: left
+      # Alignment of the title-page logo in the basic/simple layout: left | center
+      # title_page_logo_alignment: left
+
+      ## Optional title-page notes:
+      show_title_page_cover_description: true
+      title_page_cover_description: The cover image is a template demonstration background.
+      show_title_page_confidentiality_statement: true
+      title_page_confidentiality_statement: This thesis is confidential and cannot be made public.
+
+# Options:
+      # Optional: override the shared fallback logo used on the title page
+      # and on the graphical cover when no cover-specific logo file is set.
+      # If omitted, the template's built-in logo is used.
+      # logo: content/assets/logo.svg
+
+  # Shared thesis metadata
+  # These are semantic project values used by the template, not page-layout overrides.
+  options:
+    isbn: 978-94-0000-000-0
+    thesis_degree: Master of Science
+    thesis_program: Applied Physics
+    thesis_track: Physics for Instrumentation
+    thesis_faculty: Faculty of Applied Sciences
+    thesis_institution: Delft University of Technology
+    thesis_defense_date: Friday June 19, 2026 at 10:00
