@@ -4,7 +4,7 @@
 name: MyST GitHub Pages Deploy
 on:
   push:
-    branches: [main, 'candidate*']
+    branches: [main, 'candidate-v0.2.0']
 env:
   # `BASE_URL` determines, relative to the root of the domain, the URL that your site is served from.
   # E.g., if your site lives at `https://mydomain.org/myproject`, set `BASE_URL=/myproject`.
