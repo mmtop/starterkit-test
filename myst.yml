@@ -31,8 +31,9 @@ project:
   
 extends:
   - toc.yml       # includes table of contents
-  - export.yml    # includes export configurations
+  - typst_export_config.yml   # includes export configurations
   - plugins.yml   # includes plugin configurations
+  - options.yml   # includes project options  
   - authors.yml   # includes author and contributor information
   
 site:
